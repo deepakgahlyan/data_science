@@ -1,0 +1,32 @@
+
+0# Os Commands:-
+pwd -> Present Working directory
+ls -> lists all files and folders in currnet directory
+ls -al -> lists all files and folders in currnet directory including hiiden files
+cd .. -> Move one directory back
+cd Directory_Name/Path -> Move to Specified directory availbale in CWD
+mkdir Directory_Name -> Creates a directory with specified name
+mv 'src directory name' 'dst directory name' - moves
+rmdir Dir_name - removes directory
+
+
+# Git Commands:-
+For set up
+git config --global user.name User_name_in_quotation_if_space_in_name
+git config --global user.email User_email_id
+git config --global core.autocrlf true(Win)/input(Mac)
+git config --global --list
+
+
+git clone Repo_link -> Clones the repository from cloud to your local system
+git status - to check the status of the repo
+git add Dir_name/FileName_with_Extension - Move the file to staging area
+git commit - m 'msg' - move the file to local repo with the msg
+git push - push the code to cloud repo (Will ask for credentail while doing first time)
+gil pull - pulling all the changes from your cloud repo to local repo
+
+
+# File realted operation
+To open a file from CLI - vim filename.ext
+to go into insert mode - press 'i'
+to save and exit - press - 'esc' + :wq
